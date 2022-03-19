@@ -8,34 +8,54 @@
     <meta name="description" content="На этом сайт ты узнаешь как сделать тело своей мечты">
     <meta name="keywords" content="Фитнес,правильное питание,похудение,мышцы,набор массы,ягодицы,накачать попу">
     <title>BondyFit</title>
+    <link rel="stylesheet" href="tt.css">
 </head>
 <body>
-<img src="avatar.jpg" alt="avatar" width="300">
+<div class="container">
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Тренажёрный зал</a></li>
+            <li><a href="">Групповые тренировки</a></li>
+            <li><a href="">Бег</a></li>
+            <li><a href="">Питание</a></li>
+            <li><a href="">Любовь</a></li>
+        </ul>                           
+    </nav>
+    <div class="info">
+<img src="avatar.jpg" alt="avatar" class="avatar">
 <h1>Алёна Олейник</h1>
-<hr>
-<h2>
-    <strong>Всем привет!!! Тут вы найдёте все секреты, чтобы получить форму своей мечты!</strong>
-</h2>
-<h3>
-    <em>Я люблю путешествовать и свою семью!</em>
-</h3>
-<h3>
+
+<p>
+    Всем привет!!!
+    <br>
+    <br>
+    Тут вы найдёте все секреты, чтобы получить форму своей мечты!
+    <br>
+    <br>
+    Я люблю путешествовать и свою семью!
+</p>
+    </div>
+    <div class="block block-yellow">
+<h1>
     <strong>Мои социальные сети</strong>
-</h3>
-<a href="https://vk.com/fitness_alena125" target="_blank">Вконтакте</a>
-|
+</h1>
+    <a href="https://vk.com/fitness_alena125" target="_blank">Вконтакте</a>
+    |
 <a href="https://www.instagram.com/alena_bondy_fit/" target="_blank">Instagramm</a>
-<hr>
-<h1>Мои хобби</h1>
+</div>
+
+<div class="block block-red"><h1 >Мои хобби</h1>
 <ul>
     <li>Прогулки с семьей</li>
     <li>Путешествия</li>
     <li>Сноуборд</li>
     <li>Танцы</li>
 </ul>
-<h1>Опыт работы</h1>
+</div>
 
-<table border="3">
+<div class="block block-blue">
+    <h1>Опыт работы</h1>
+<table class="table">
     <thead>
         <tr>
             <th>Название</th>
@@ -66,7 +86,9 @@
     </tr>
     </tbody>
 </table>
+</div>
 
+<div class="block block-green">
 <h1>Связаться со мной</h1>
 <br>
 <form>
@@ -85,8 +107,9 @@
         <br>
         <textarea id="message" cols="25" rows="5" placeholder="Введите текст..."></textarea>
     </div>
-    <input type="submit" value="Отправить!">
+    <input type="submit" value="Отправить!" class="btn">
 </form>
-
+</div>
+</div>
 </body>
 </html>

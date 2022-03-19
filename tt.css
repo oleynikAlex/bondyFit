@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Inspiration', cursive;
+    font-size: 16px;
+
+}
+
+ .container {
+     max-width: 1440px;
+     margin: auto;
+     padding-top:30px;
+     color: white;
+
+ }
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(2, 2, 2);
+}
+ .info h1 {
+     margin-bottom: 20px;
+ }
+
+.info p {
+     font-family: 'Fredoka', sans-serif;
+     color: black;
+     margin-bottom: 40px;
+
+ }
+
+ .block h1 {
+     margin-bottom: 10px;
+ }
+
+.block {
+    border: 5px solid red;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
+
+.block li {
+    width: 170px;
+    margin: 0 0 7px 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: solid 2px white;
+
+}
+
+.block-yellow {
+    background: black;
+}
+
+.block-red {
+    background: black;
+}
+
+.block-blue {
+    background: black;
+}
+
+.block-green {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    transition: all .4s;
+    color: white;
+}
+
+a:hover {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a:active {
+    color: red;
+}
+
+.btn {
+    background: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    font-family: 'Inspiration', cursive;
+    font-size: 20px;
+    margin: 10px 0 0 30px;
+    cursor:pointer;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.table {
+    width: 50%;
+
+
+
+}
+
+.table td {
+    border:  1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.navbar {
+    background: black;
+    margin-bottom: 30px;
+    border: 5px solid red;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+
+}
+
+.navbar ul li {
+    padding: 15px;
+    text-align: center;
+    width: 20%;
+    box-sizing:border-box;
+    border: black 2px solid;
+
+}
+
+.navbar ul li:hover {
+    background: black;
+    text-align: center;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
