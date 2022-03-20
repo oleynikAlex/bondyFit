@@ -5,7 +5,7 @@
 
 body {
     background-color: white;
-    font-family: 'Inspiration', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 
 }
@@ -121,6 +121,7 @@ a:active {
     background: black;
     margin-bottom: 30px;
     border: 5px solid red;
+    border-radius: 15px;
 
 
 }
@@ -130,6 +131,7 @@ a:active {
     display: flex;
     width: 100%;
 
+
 }
 
 .navbar ul li {
@@ -138,6 +140,7 @@ a:active {
     width: 20%;
     box-sizing:border-box;
     border: black 2px solid;
+    border-radius: 15px;
 
 }
 
