@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: #a4a2a2;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+
+.navbar {
+    width: 880px;
+    background: #a4a2a2;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+    width: 200px;
+}
+
+.navbar ul li:hover {
+    background: #db4ef5;
+    border-radius: 15px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+
+}
+
+.info {
+    margin-left: 15px;
+    width: 895px;
+}
+
+.info ul {
+    display: flex;
+    list-style: none;
+
+}
+
+
+.block {
+    width: 850px;
+    border: 2px solid black;
+    margin: 15px;
+    background: #4eecf5;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.block:hover {
+    border: 5px solid black;
+    background: #db4ef5;
+}
+
+.network {
+    text-align: center;
+}
+
+.table1 {
+    margin: 20px;
+    text-align: center;
+
+
+}
+
+.table1 td {
+    border: black 1px solid;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.table1 td:hover {
+    background: #4eecf5;
+    border: 3px black solid;
+}
+
+.hobby ul {
+    list-style: none;
+
+}
+
+.hobby li {
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:active {
+    color: #4eecf5;
+}
+
+a:visited {
+    color: black;
+}
+
+.btn {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #db4ef5;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #4eecf5;
+    cursor: pointer;
+}
+
+.connection h2 {
+    margin-bottom: 20px;
+}
+
+.education {
+    text-align: center;
+}
+
+.work {
+    text-align: center;
+}
+
+.hobby {
+    text-align: center;
+}
+
+.connection {
+    text-align: center;
+}
+
+.connection label {
+    display: block;
+}
+
+.connection input, textarea {
+    box-sizing: border-box;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.row {
+    width: 50%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.row:last-child {
+    margin-right: 0;
+}
+
+
+.name {
+    margin-right: 10px;
+}
+
+textarea {
+    width: 400px;
+
+}
+
+@media (max-width: 600px) {
+    .info ul {
+        display: block;
+    }
+}
+

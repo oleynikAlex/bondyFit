@@ -1,127 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="На этом сайт ты узнаешь как сделать тело своей мечты">
-    <meta name="keywords" content="Фитнес,правильное питание,похудение,мышцы,набор массы,ягодицы,накачать попу">
-    <title>BondyFit</title>
-    <link rel="stylesheet" href="tt.css">
+    <meta name="description" content="Резюме Frontend">
+    <meta name="keywords" content="Резюме Frontend">
+    <link rel="stylesheet" href="style.css">
+    <title>Oleynik РЕЗЮМЕ</title>
 </head>
 <body>
 <div class="container">
     <nav class="navbar">
         <ul>
-            <li><a href="">Тренажёрный зал</a></li>
-            <li><a href="">Групповые тренировки</a></li>
-            <li><a href="">Бег</a></li>
-            <li><a href="">Питание</a></li>
-            <li><a href="">Результаты</a></li>
+            <li class="btn"><a href="#travel">Путешествия</a></li>
+            <li class="btn"><a href="#moto">Мотоциклы</a></li>
+            <li class="btn"><a href="#snowboard">Сноубординг</a></li>
+            <li class="btn"><a href="#family">Фитнес</a></li>
         </ul>
     </nav>
 
-
     <div class="info">
-        <img src="avatar.jpg" alt="avatar" class="avatar">
-
-        <div class="inf block"><h1>Алёна Олейник</h1>
-            <br>
-
-
-            <p>
-                Всем привет!!!
-                <br>
-                Тут вы найдёте все секреты, чтобы получить форму своей мечты!
-            </p>
-            <br>
-
-            <div>
-                <div class="seti"><h3>
-                    <strong>Мои социальные сети</strong>
-                </h3>
-                    <a href="https://vk.com/fitness_alena125" target="_blank">Вконтакте</a>
-                    |
-                    <a href="https://www.instagram.com/alena_bondy_fit/" target="_blank">Instagramm</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="block block-hobbi"><h1>Мои хобби</h1>
         <ul>
-            <li>Прогулки с семьей</li>
-            <li>Путешествия</li>
-            <li>Сноуборд</li>
-            <li>Танцы</li>
+            <li><img alt="avatar" src="avatar2.jpg" class="avatar"></li>
+            <li class="block"><h1>Олейник Александр</h1>
+                <br>
+                <p>
+                    Г. Старый Оскол
+                    <br>
+                    Контакты: тел. 8-980-521-44-17
+                    <br>
+                    <br>
+                    Frontend стажёр
+                    <br>
+                    Начальная стадия обучения: HTML и CSS: базовый курс.
+                    <br>
+                    JavaScript: Синтаксис, циклы, функции.
+                </p></li>
         </ul>
     </div>
+    <div class="network block">
+        <h2>Социальные сети</h2>
+        <br>
+        <a class="btn" href="https://vk.com/oleynik13fit" target="_blank">Вконтакте</a>
+        <a class="btn" href="https://t.me/oleynik13" target="_blank">Телеграм</a>
+    </div>
 
-    <div class="block block-work">
-        <h1>Опыт работы</h1>
-        <table class="table">
+    <div class="education block">
+        <h2>Образование</h2>
+        <br>
+        <table class="table1">
             <thead>
             <tr>
-                <th>Название</th>
+                <th>Специальность</th>
+                <th>Год</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Монтаж и техническая эксплуатация промышленного оборудования</td>
+                <td>2011-2015</td>
+            </tr>
+            <tr>
+                <td>Физическая культура и спорт</td>
+                <td>2018-2022</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="block work">
+        <h2>Опыт работы</h2>
+        <br>
+        <table class="table1">
+            <thead>
+            <tr>
+                <th>Место</th>
                 <th>Должность</th>
                 <th>Год</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>Work and Travel. Германия.</td>
-                <td>Эколог-стажёр</td>
-                <td>2013</td>
+                <td>Срочная служба в армии</td>
+                <td>Разведчик ВДВ</td>
+                <td>2015-2016</td>
             </tr>
             <tr>
-                <td>Школа танцев. Украина.</td>
-                <td>Хореограф</td>
-                <td>2014-2017</td>
+                <td>Фитнес-центр «Санта Моника» г. Белгород</td>
+                <td>Персональный тренер</td>
+                <td>2017-2019</td>
             </tr>
             <tr>
-                <td>Школа танцев. Старый Оскол.</td>
-                <td>Хореограф</td>
-                <td>2017-2018</td>
-            </tr>
-            <tr>
-                <td>Фитнес центр "Айсберг"</td>
+                <td>Фитнес-центр «Айсберг» г. Старый Оскол</td>
                 <td>Тренер-универсал</td>
-                <td>2018-Сейчас</td>
+                <td>2019-настоящее время</td>
             </tr>
             </tbody>
         </table>
     </div>
 
-    <div class="svyaz block">
-        <h1>Связаться со мной</h1>
+    <div class="block hobby">
+        <h2>Мои хобби</h2>
         <br>
-        <form>
+        <ul>
+            <li id="travel">Путешествия</li>
+            <li id="moto">Мотоциклы</li>
+            <li id="snowboard">Сноубординг</li>
+            <li id="family">Фитнес</li>
+        </ul>
+    </div>
 
+    <div class="block connection">
+        <h2>Связаться со мной</h2>
+        <form>
             <div class="row">
-                <div class="svyaz-name">
-                    <label for="text2">Ваше имя:</label>
-                    <input type="text" id="text2" placeholder="Имя...">
+                <div class="name">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя...">
                 </div>
 
-
-                <div class="svyaz-email">
+                <div class="email">
                     <label for="email">Ваш email:</label>
                     <input type="email" id="email" placeholder="Введите email...">
                 </div>
             </div>
-
-            <div class="svyaz-message">
-                <label for="message">Ваше сообщение:</label>
-                <textarea id="message" cols="25" rows="5" placeholder="Введите текст..."></textarea>
+            <div class="message">
+                <label for="message">Ваше сообщение</label>
+                <textarea id="message" placeholder="Введите текст..."></textarea>
                 <br>
-                <input type="submit" value="Отправить!" class="btn">
+                <button class="btn">Отправить!</button>
             </div>
         </form>
     </div>
 </div>
-
-<script src="script.js"></script>
+<script src="scriptJs.js"></script>
 </body>
 </html>
