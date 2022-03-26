@@ -13,10 +13,10 @@ body {
     max-width: 1024px;
     margin: auto;
     padding: 20px;
+
 }
 
 .navbar {
-    width: 880px;
     background: #a4a2a2;
     margin-bottom: 30px;
     border-radius: 15px;
@@ -26,13 +26,12 @@ body {
 .navbar ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
 .navbar ul li {
-    margin-right: 50px;
-    width: 200px;
+    margin:auto;
 }
 
 .navbar ul li:hover {
@@ -54,7 +53,7 @@ body {
 
 .info {
     margin-left: 15px;
-    width: 895px;
+
 }
 
 .info ul {
@@ -65,7 +64,6 @@ body {
 
 
 .block {
-    width: 850px;
     border: 2px solid black;
     margin: 15px;
     background: #4eecf5;
@@ -84,7 +82,7 @@ body {
 }
 
 .table1 {
-    margin: 20px;
+    margin: auto;
     text-align: center;
 
 
@@ -175,7 +173,7 @@ a:visited {
     width: 50%;
     display: flex;
     margin-bottom: 20px;
-    margin-left: 200px;
+
 }
 
 .row:last-child {
@@ -187,13 +185,15 @@ a:visited {
     margin-right: 10px;
 }
 
-textarea {
-    width: 400px;
-
+.message {
+    text-align: left;
 }
 
 @media (max-width: 600px) {
     .info ul {
+        display: block;
+    }
+    .row {
         display: block;
     }
 }
