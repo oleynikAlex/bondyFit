@@ -20,7 +20,7 @@ body {
     background: #a4a2a2;
     margin-bottom: 30px;
     border-radius: 15px;
-    margin-left: 15px;
+
 }
 
 .navbar ul {
@@ -31,7 +31,7 @@ body {
 }
 
 .navbar ul li {
-    margin:auto;
+    margin: auto;
 }
 
 .navbar ul li:hover {
@@ -47,19 +47,16 @@ body {
     width: 300px;
     border-radius: 15px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-    margin-right: 20px;
 
 }
 
 .info {
     margin-left: 15px;
-
 }
 
 .info ul {
     display: flex;
     list-style: none;
-
 }
 
 
@@ -193,8 +190,20 @@ a:visited {
     .info ul {
         display: block;
     }
+
     .row {
         display: block;
     }
+
+    body {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+
 }
+
 
