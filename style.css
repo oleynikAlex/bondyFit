@@ -41,18 +41,20 @@ body {
 
 .navbar ul li:last-child {
     margin-right: 0;
+
 }
 
 .avatar {
-    width: 300px;
+    width: 444px;
     border-radius: 15px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 15px;
+    margin-bottom: 10px;
+
 
 }
 
-.info {
-    margin-left: 15px;
-}
+
 
 .info ul {
     display: flex;
@@ -62,7 +64,7 @@ body {
 
 .block {
     border: 2px solid black;
-    margin: 15px;
+    margin-bottom: 15px;
     background: #4eecf5;
     padding: 15px;
     border-radius: 15px;
@@ -201,6 +203,10 @@ a:visited {
 
     .btn {
         font-size: 12px;
+    }
+
+    .avatar {
+        margin: auto;
     }
 
 
